@@ -235,6 +235,15 @@ sudo apt install tlp tlp-rdw
 sudo tlp start
 ```
 
+### Improve Fan Control (keep it quieter and cooler)
+
+You can also install the fan control daemon for MacBooks (keeps it cooler/quieter)
+
+```bash
+sudo apt install mbpfan
+sudo systemctl enable mbpfan
+```
+
 ---
 
 ## What's Next?
